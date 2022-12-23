@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+  <h1>Phone Selection With specification</h1> 
+<div id="main">
+
+  <label for="iphone">Iphone</label>  
+  <input onchange="showModels(this)" type="checkbox"  id="iphone">
+  
+  <label for="samsung">Samsung</label>  
+  <input  onchange="showModels(this)" type="checkbox"  id="samsung">
+
+  <label for="xiomi">Xiomi</label>  
+  <input  onchange="showModels(this)" type="checkbox"  id="xiomi">
+
+  <div id="parent">
+    
+  </div>
+
+</div>
+
+<div  id="show" class="show"></div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
